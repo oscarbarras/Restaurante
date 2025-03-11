@@ -1,0 +1,45 @@
+body {
+    background-image: url('/Restaurante/carrusel/fn.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+
+.navbar-brand {
+    font-family: 'Great Vibes', cursive;
+   
+}
+
+.navbar-nav {
+    font-family: 'Great Vibes', cursive;
+   
+    width: 50%;
+}
+
+
+.container {
+    margin-top: 5rem;
+}
+
+
+.card {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+
+.btn-primary {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
+
+.alert-custom {
+    display: none;
+    font-size: 1.1rem;
+}

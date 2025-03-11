@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Elegante</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/Restaurante/styles/index.css">
+</head>
+<body >
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-1" href="index.html">Restaurante L-gante</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse fs-2" id="navbarNav">
+                <ul class="navbar-nav mx-auto justify-content-between" style="width: 50%;">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="reservar.html">Reservar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="carta.html">Carta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre-nosotros.html">Sobre Nosotros</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container text-center mt-5 pt-5">
+        <h1 class="display-1">
+            <span>Bienvenido a</span>
+            <span>L-gante</span>
+        </h1>
+        <h3 class="fs-2">
+            Atrévete a probar una experiencia única.
+        </h3>
+    </div>
+    <div class="container mt-2 pt-2">
+        <section id="inicio">
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000" data-bs-pause="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <video class="d-block w-100" autoplay muted loop id="video">
+                            <source src="/Restaurante/carrusel/video.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/Restaurante/carrusel/carnes-de-elite.jpg" class="d-block w-100" alt="Imagen 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/Restaurante/carrusel/n1.jpg" class="d-block w-100" alt="Imagen 3">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="container text-center mt-4">
+        <h3 class="display-1">
+            Premio Gastronómico Carne de Oro 2024
+        </h3>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
