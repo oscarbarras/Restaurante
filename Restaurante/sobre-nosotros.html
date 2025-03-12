@@ -10,29 +10,14 @@
     <link rel="stylesheet" href="/Restaurante/styles/sobreNosotros.css"> 
 </head>
 <body class="sobre-nosotros">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand fs-1" href="index.html">Restaurante L-gante</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>                  
-            <div class="collapse navbar-collapse fs-2" id="navbarNav">
-                <ul class="navbar-nav mx-auto justify-content-between">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="reservar.html">Reservar</a></li>
-                    <li class="nav-item"><a class="nav-link" href="carta.html">Carta</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="sobre-nosotros.html">Sobre Nosotros</a></li>
-                </ul>
-            </div>           
-        </div>
-    </nav>
+<div id="navbar-container"></div>
     <div class="container mt-5">
-        <div class="card text-white shadow mb-4">
+        <div class="card shadow mb-4">
             <div class="card-body text-center">
-                <h2 class="card-title text-warning fs-3"><i class="bi bi-info-circle"></i> Sobre Nosotros</h2>
+                <h2 class="card-title fs-3"><i class="bi bi-info-circle"></i> Sobre Nosotros</h2>
             </div>
         </div>
-        <div class="card text-white shadow mb-4">
+        <div class="card  shadow mb-4">
             <div class="card-body">
                 <p>En Restaurante L-gante, nos especializamos en ofrecer la mejor calidad de carnes, seleccionadas cuidadosamente para brindarte una experiencia gastronómica única. Cada corte es preparado con esmero por nuestro chef experto para asegurar que cada bocado sea una explosión de sabor.</p>
                 <p>Contamos con una variedad de carnes de la mejor procedencia, desde filetes de res hasta cortes exclusivos, todos cocinados a la perfección en parrillas de última tecnología para preservar su sabor y textura.</p>
@@ -41,8 +26,8 @@
         </div>
         <div class="row">
             <div class="col-md-6 mb-4 text-center">
-                <div class="card text-white shadow">
-                    <div class="card-header text-warning text-center fs-4">
+                <div class="card  shadow">
+                    <div class="card-header  text-center fs-4">
                         <i class="bi bi-clock"></i> Horarios
                     </div>
                     <div class="card-body">
@@ -54,8 +39,8 @@
                 </div>
             </div>
             <div class="col-md-6 mb-4">
-                <div class="card text-white shadow text-center">
-                    <div class="card-header text-warning text-center fs-4">
+                <div class="card shadow text-center">
+                    <div class="card-header  text-center fs-4">
                         <i class="bi bi-geo-alt"></i> Dirección
                     </div>
                     <div class="card-body">
@@ -67,8 +52,8 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-                <div class="card text-white shadow">
-                    <div class="card-header text-warning text-center fs-4">
+                <div class="card shadow">
+                    <div class="card-header text-center fs-4">
                         <i class="bi bi-telephone"></i> Número
                     </div>
                     <div class="card-body text-center">
@@ -77,8 +62,8 @@
                 </div>
             </div>
         </div>
-        <div class="card text-white shadow mt-4">
-            <div class="card-header text-warning text-center fs-4">
+        <div class="card shadow mt-4">
+            <div class="card-header  text-center fs-4">
                 <i class="bi bi-map"></i> Nos encontramos aquí
             </div>
             <div class="card-body p-0">
@@ -90,6 +75,32 @@
             </div>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    fetch('navbar.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('navbar-container').innerHTML = data;
+            const modeBtn = document.getElementById('modo-btn');
+        const body = document.body;
+
+        if (localStorage.getItem('dark-mode') !== 'false') {
+            body.classList.remove('light-mode');
+            modeBtn.textContent = '☀️';
+        } else {
+            body.classList.add('light-mode');
+            modeBtn.textContent = '🌙';
+        }
+
+        modeBtn.addEventListener('click', () => {
+            body.classList.toggle('light-mode');
+            const isLightMode = body.classList.contains('light-mode');
+            modeBtn.textContent = isLightMode ? '🌙' : '☀️';
+            localStorage.setItem('dark-mode', isLightMode ? 'false' : 'true');
+        });
+    })
+    .catch(error => console.error('Error cargando el navbar:', error));
+</script>

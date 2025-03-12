@@ -49,3 +49,62 @@ h5 {
 p {
     font-size: 1.7rem;
 }
+
+/* Modo claro */
+body.light-mode {
+    background-color: #ffffff;
+    color: #000000; /* Texto oscuro */
+}
+
+body.light-mode .accordion-button {
+    background-color: #84daff;
+    color: #333; /* Texto oscuro */
+}
+
+body.light-mode .accordion-body {
+    background-color: #c1c0c0; 
+    color: #333; /* Texto oscuro */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #333;
+}
+
+body.light-mode .navbar {
+    background-color: #ffffff;
+}
+
+body.light-mode .navbar-brand {
+    color: #000000; /* Color oscuro en modo claro */
+}
+
+/* Botón del modo */
+#modo-btn {
+    transition: 0.3s;
+    background-color: #f1c40f;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+body.light-mode #modo-btn {
+    background-color: #333;
+    color: #f1c40f;
+}
+
+/* Estilos de texto en modo oscuro */
+body:not(.light-mode) .accordion-button {
+    color: #ffc107; /* Color dorado para el texto */
+}
+
+body:not(.light-mode) .accordion-body {
+    color: #fff; /* Texto blanco en modo oscuro */
+}
+
+
+body.light-mode .navbar-nav .nav-link{ 
+    color: #000000;
+}
