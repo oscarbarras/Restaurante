@@ -1,110 +1,108 @@
+@charset "UTF-8";
 body {
-    background-image: url('/Restaurante/carrusel/fn.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    color: white;
-    font-family: 'Great Vibes', cursive;
+  background-image: url("/Restaurante/carrusel/fn.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  font-family: "Great Vibes", cursive;
 }
 
 .navbar-brand {
-    font-family: 'Great Vibes', cursive;
+  font-family: "Great Vibes", cursive;
 }
 
 #navbarNav {
-    font-family: 'Great Vibes', cursive;
+  font-family: "Great Vibes", cursive;
 }
 
 .navbar-nav {
-    width: 50%;
+  width: 50%;
 }
 
 .menu-container {
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 20px;
-    border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .accordion-item {
-    background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .accordion-button {
-    background-color: #343a40 !important;
-    color: #ffc107 !important;
-    font-size: 2rem;
+  background-color: #343a40 !important;
+  color: #ffc107 !important;
+  font-size: 2rem;
 }
 
 .menu-img {
-    object-fit: cover;
-    height: 250px;
-    width: 100%;
-    border-radius: 10px;
+  object-fit: cover;
+  height: 250px;
+  width: 100%;
+  border-radius: 10px;
 }
 
 h5 {
-    font-size: 1.8rem;
+  font-size: 1.8rem;
 }
 
 p {
-    font-size: 1.7rem;
+  font-size: 1.7rem;
 }
 
 /* Modo claro */
 body.light-mode {
-    background-color: #ffffff;
-    color: #000000; /* Texto oscuro */
+  background-color: #ffffff;
+  color: #000000; 
 }
 
 body.light-mode .accordion-button {
-    background-color: #84daff;
-    color: #333; /* Texto oscuro */
+  background-color: #84daff;
+  color: #333; 
 }
 
 body.light-mode .accordion-body {
-    background-color: #c1c0c0; 
-    color: #333; /* Texto oscuro */
+  background-color: #c1c0c0;
+  color: #333; 
 }
 
-/* Navbar */
 .navbar {
-    background-color: #333;
+  background-color: #333;
 }
 
 body.light-mode .navbar {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 body.light-mode .navbar-brand {
-    color: #000000; /* Color oscuro en modo claro */
+  color: #000000; 
 }
 
-/* Botón del modo */
 #modo-btn {
-    transition: 0.3s;
-    background-color: #f1c40f;
-    color: #333;
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-    font-size: 18px;
+  transition: 0.3s;
+  background-color: #f1c40f;
+  color: #333;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
 }
 
 body.light-mode #modo-btn {
-    background-color: #333;
-    color: #f1c40f;
+  background-color: #333;
+  color: #f1c40f;
 }
 
-/* Estilos de texto en modo oscuro */
 body:not(.light-mode) .accordion-button {
-    color: #ffc107; /* Color dorado para el texto */
+  color: #ffc107; 
 }
 
 body:not(.light-mode) .accordion-body {
-    color: #fff; /* Texto blanco en modo oscuro */
+  color: #fff; 
 }
 
-
-body.light-mode .navbar-nav .nav-link{ 
-    color: #000000;
+body.light-mode .navbar-nav .nav-link {
+  color: #000000;
 }
+

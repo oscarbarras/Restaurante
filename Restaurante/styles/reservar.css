@@ -1,74 +1,74 @@
 body {
-    background-image: url('/Restaurante/carrusel/fn.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    color: white;
+  background-image: url("/Restaurante/carrusel/fn.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
 }
 
 .navbar-brand {
-    font-family: 'Great Vibes', cursive;
+  font-family: "Great Vibes", cursive;
 }
 
 .navbar-nav {
-    font-family: 'Great Vibes', cursive;
-    width: 50%;
+  font-family: "Great Vibes", cursive;
+  width: 50%;
 }
 
 .container {
-    margin-top: 5rem;
+  margin-top: 5rem;
 }
 
 .card {
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
 }
 
 h1 {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
-
 body.light-mode {
-    background-color: #f8f9fa;  
-    color: #333333; 
+  background-color: #f8f9fa;
+  color: #333333;
 }
 
 body.light-mode .card {
-    background-color: #c1c0c0;  
-    color: #333333;  
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);  
+  background-color: #c1c0c0;
+  color: #333333;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 .navbar {
-    background-color: #333; 
+  background-color: #333;
 }
 
 body.light-mode .navbar {
-    background-color: #ffffff;  
-    color: #333333; 
+  background-color: #ffffff;
+  color: #333333;
 }
 
 body.light-mode .navbar-brand {
-    color: #333333; 
+  color: #333333;
 }
 
 body.light-mode h1,
 body.light-mode .form-label,
 body.light-mode .navbar-nav .nav-link,
 body.light-mode .btn-primary,
-body.light-mode .card-title, 
+body.light-mode .card-title,
 body.light-mode .card-header {
-    color: #333333;  
+  color: #333333;
 }
 
 #modo-btn {
-    transition: 0.3s;
-    background-color: #f1c40f; 
-    color: #333333;  
+  transition: 0.3s;
+  background-color: #f1c40f;
+  color: #333333;
 }
 
 body.light-mode #modo-btn {
-    background-color: #333333;  
-    color: #f1c40f;  
+  background-color: #333333;
+  color: #f1c40f;
 }
+

@@ -1,100 +1,96 @@
 body.sobre-nosotros {
-    padding-top: 70px;
-    background-image: url('/Restaurante/carrusel/fn.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    color: #f1c40f;
+  padding-top: 70px;
+  background-image: url("/Restaurante/carrusel/fn.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #f1c40f;
 }
 
 .navbar-brand {
-    font-family: 'Great Vibes', cursive;
+  font-family: "Great Vibes", cursive;
 }
 
 .navbar-nav {
-    width: 50%;
+  width: 50%;
 }
 
 .navbar-nav .nav-link {
-    font-family: 'Great Vibes', cursive;
-    
+  font-family: "Great Vibes", cursive;
 }
 
 .card {
-    background-color: rgba(0, 0, 0, 0.6);
-    color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
 }
 
 .card-header {
-    font-size: 1.5rem;
-    color: #f1c40f;
+  font-size: 1.5rem;
+  color: #f1c40f;
 }
 
 .card-title {
-    color: #f1c40f;
+  color: #f1c40f;
 }
 
 ul.navbar-nav {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body.sobre-nosotros ul.navbar-nav {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .mapa-ubicacion {
-    width: 100%;
-    height: 600px;
-    border: 0;
-    border-radius: 0 0 10px 10px;
+  width: 100%;
+  height: 600px;
+  border: 0;
+  border-radius: 0 0 10px 10px;
 }
 
 /* Modo claro */
 body.light-mode {
-    background-color: #ffffff;
-    color: #000000; 
+  background-color: #ffffff;
+  color: #000000;
 }
 
-
 body.light-mode .card {
-    background-color: #c1c0c0; 
-    color: #000000; 
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  background-color: #c1c0c0;
+  color: #000000;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
 .navbar {
-    background-color: #333;
+  background-color: #333;
 }
 
-
 body.light-mode .navbar {
-    background-color: #f8f9fa;
-    color: #000000;
+  background-color: #f8f9fa;
+  color: #000000;
 }
 
 body.light-mode .navbar-brand {
-    color: #000000; 
+  color: #000000;
 }
-
 
 body.light-mode h1,
 body.light-mode .form-label,
 body.light-mode .navbar-nav .nav-link,
 body.light-mode .btn-primary,
-body.light-mode .card-title, 
-body.light-mode .card-header { 
-    color: #000000;
+body.light-mode .card-title,
+body.light-mode .card-header {
+  color: #000000;
 }
 
 #modo-btn {
-    transition: 0.3s;
-    background-color: #b3b3b3;
-    color: #333;
+  transition: 0.3s;
+  background-color: #b3b3b3;
+  color: #333;
 }
 
 body.light-mode #modo-btn {
-    background-color: #333;
-    color: #f1c40f;
+  background-color: #333;
+  color: #f1c40f;
 }

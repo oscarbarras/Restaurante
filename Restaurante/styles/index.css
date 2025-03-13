@@ -1,71 +1,70 @@
 body {
-    background-image: url('/Restaurante/carrusel/fn.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    color: white;
-
+  background-image: url("/Restaurante/carrusel/fn.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
 }
 
 .navbar-brand {
-    font-family: 'Great Vibes';
+  font-family: "Great Vibes";
 }
 
 #navbarNav {
-    font-family: 'Great Vibes';
+  font-family: "Great Vibes";
 }
 
 .container.text-center.mt-5.pt-5 h1 {
-    font-family: 'Great Vibes', cursive;
-    text-shadow: 2px 2px 4px #000000;
+  font-family: "Great Vibes", cursive;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .container.text-center.mt-5.pt-5 h1 span:first-child {
-    color: rgba(255, 255, 255, 0.829);
+  color: rgba(255, 255, 255, 0.829);
 }
 
 .container.text-center.mt-5.pt-5 h1 span:last-child {
-    font-size: 6rem;
-    color: white;
+  font-size: 6rem;
+  color: white;
 }
 
 .container.text-center.mt-5.pt-5 h3 {
-    font-family: 'Times New Roman', Times, serif;
-    text-shadow: 2px 2px 4px #000000;
-    color: rgba(255, 255, 255, 0.829);
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 2px 2px 4px #000000;
+  color: rgba(255, 255, 255, 0.829);
 }
 
 #video {
-    height: 500px;
-    object-fit: cover;
-    object-position: bottom;
+  height: 500px;
+  object-fit: cover;
+  object-position: bottom;
 }
 
 .carousel-item img {
-    height: 500px;
-    object-fit: cover;
-    object-position: bottom;
+  height: 500px;
+  object-fit: cover;
+  object-position: bottom;
 }
 
 .container.text-center.mt-4 h3 {
-    font-family: 'Great Vibes', cursive;
-    text-shadow: 2px 2px 4px #000000;
+  font-family: "Great Vibes", cursive;
+  text-shadow: 2px 2px 4px #000000;
 }
 
-
 .navbar {
-    background-color: #333; 
-    
+  background-color: #333;
 }
 
 body.light-mode .navbar {
-     background-color: #ffffff; color: #000000; 
-} 
+  background-color: #ffffff;
+  color: #000000;
+}
 
-body.light-mode .navbar-brand
- { color: #000000; 
-} 
+body.light-mode .navbar-brand {
+  color: #000000;
+}
 
-body.light-mode .navbar-nav .nav-link{
-     color: #000000;
- }
+body.light-mode .navbar-nav .nav-link {
+  color: #000000;
+}
+

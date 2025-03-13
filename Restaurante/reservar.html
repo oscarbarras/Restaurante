@@ -72,10 +72,9 @@
             })
             .catch(error => console.error('Error cargando el navbar:', error));
 
-        // Mostrar mensaje de confirmación al enviar el formulario
         document.getElementById('reservationForm').addEventListener('submit', function(event) {
-            event.preventDefault(); // Prevenir que el formulario se envíe
-            document.getElementById('successMessage').style.display = 'block'; // Mostrar mensaje de éxito
+            event.preventDefault(); 
+            document.getElementById('successMessage').style.display = 'block';
         });
     </script>
 </body>
