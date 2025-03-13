@@ -45,7 +45,7 @@ Este proyecto es una página web para el restaurante "L-gante". La página inclu
 ├── index.html
 ├── navbar.html
 ├── reservar.html
-└── sobre-nosotros.html
+└── sobre-nosotros.html             
 ```
 
 ## Tecnologías utilizadas
@@ -70,8 +70,13 @@ Cada página tiene sus propios estilos dedicados en la carpeta `styles`.
 
 ## Cómo ejecutar el proyecto
 
-1. Clonar el repositorio. "git clone https://github.com/oscarbarras/Restaurante.git"
-2. Abrir el archivo `index.html` en el navegador.
+1. Clonar el repositorio, está público para que se pueda copiar. "git clone https://github.com/oscarbarras/Restaurante.git"
+2. Descargar la extension GoLive en Visual Studio Code.
+3. Abrir el archivo clonado en Virtual Studio Code y abrir el GoLive.
+4. Se abriran dos opciones la carpeta Restaurante o el readme, abrimos la de Restaurante y estaria funcional el proyecto.
+
+Si se descarga el .rar lo más importante es SACAR LA CARPETA RESTAURANTE FUERA de la carpeta dawdiw_202503_barras_casla_oscar.rar
+Se abriran dos opciones la carpeta Restaurante o el readme, abrimos la de Restaurante y estaria funcional el proyecto.
 
 ¡Listo! 🎉 Disfruta explorando el Restaurante L-gante.
 
