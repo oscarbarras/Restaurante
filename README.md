@@ -66,7 +66,7 @@ Este proyecto es una página web para el restaurante "L-gante". La página inclu
 
 ## Estilos CSS
 
-Cada página tiene sus propios estilos dedicados en la carpeta `styles`, además de un estilo global `styles.css`.
+Cada página tiene sus propios estilos dedicados en la carpeta `styles`.
 
 ## Cómo ejecutar el proyecto
 
